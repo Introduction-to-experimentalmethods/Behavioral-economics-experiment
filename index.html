@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <script>
+        // Add your Google Form links inside the quotes below
+        const surveys = [
+            "https://docs.google.com/forms/d/e/1FAIpQLScZe3MNKoIaQurMLOKxb_5H_A1Y-Qf5xEQC9d5J1K-WHkqDUA/viewform?usp=pp_url&entry.1654312951=Yes+(Si)",     
+
+
+ "https://docs.google.com/forms/d/e/1FAIpQLSdUEfODXDM1kDJKu5kN3GbzE-H9ifTRGVJnB4lj_rncGhYnqQ/viewform?usp=pp_url&entry.1654312951=No"
+        ];
+
+        // This picks a random link from the list above
+        const randomLink = surveys[Math.floor(Math.random() * surveys.length)];
+
+        // This sends the user to that link
+        window.location.replace(randomLink);
+    </script>
+</head>
+<body>
+    <p>Loading survey, please wait...</p>
+</body>
+</html>
